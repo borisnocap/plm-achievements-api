@@ -1,8 +1,6 @@
 package ru.plm.achievements;
 
-import org.bukkit.entity.Player;
-
 public interface AchievementsAPI {
 
-    void activateTrigger(Player player, AchievementTrigger trigger, long triggerAmount);
+    void activateTrigger(String playerName, AchievementTrigger trigger, long triggerAmount);
 }
